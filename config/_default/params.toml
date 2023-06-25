@@ -1,42 +1,42 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "OpenFormula"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "Documentación y Blog"
+description = "OpenFormula será una app de código libre dónde se podrán consultar fórmulas de distintos campos de la ciencia."
 
 ## Documentation
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
-ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+images = ["openformulaDocs.png"]
+ogLocale = "es_MX"
+domainTLD = "openformulaapp.github.io"
+titleHome = "OpenFormula Docs"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+## twitterSite = "@getdoks"
+## twitterCreator = "@henkverlinde"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
-schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaName = "OpenFormula"
+schemaAuthor = "Uri Martínez"
+## schemaAuthorTwitter = "https://twitter.com/henkverlinde"
+## schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
+schemaAuthorGitHub = "https://github.com/UriMtzF"
+schemaLocale = "es-MX"
+schemaLogo = "openFormula.jpg"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "openformulaDocs.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+## schemaTwitter = "https://twitter.com/getdoks"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/OpenFormulaApp"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -56,19 +56,19 @@ smallLimit = "300"
 # Images
 imageResponsive = true
 imageConvertTo = "webp"
-imageImageSizes = ["480","720","1080","1280","1600","2048"]
+imageImageSizes = ["480", "720", "1080", "1280", "1600", "2048"]
 singleSize = false
 imageAddClass = "img-fluid lazyload blur-up"
 
 ### Image template
 defaultImage = "default-image.png" # put in `./assets/images/`
-fillImage = "1270x740 Center" # normalize image size
+fillImage = "1270x740 Center"      # normalize image size
 
 # Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "Impulsado por <a class=\"text-muted\" href=\"https://pages.github.com/\">Github Pages</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, y <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2023 OpenFormula"
 
 # Alert
 alert = false
@@ -80,35 +80,35 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
-docsRepoBranch = "master"
+docsRepo = "https://github.com/OpenFormulaApp/openformulaapp.github.io"
+docsRepoBranch = "main"
 docsRepoSubPath = ""
-editPage = false
-lastMod = false
+editPage = true
+lastMod = true
 
 [sections]
-  sectionNav = ["docs", "guides"]
+sectionNav = ["docs", "guides"]
 
 [options]
-  lazySizes = true
-  clipBoard = true
-  instantPage = true
-  flexSearch = true
-  searchSectionsShow = []
-  searchSectionsIndex = []
-  darkMode = true
-  bootStrapJs = true
-  breadCrumb = false
-  highLight = true
-  kaTex = false
-  multilingualMode = false
-  docsVersioning = false
-  fullWidth = false
-  navbarSticky = true
-  toTopButton = false
-  scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
+lazySizes = true
+clipBoard = true
+instantPage = true
+flexSearch = true
+searchSectionsShow = []
+searchSectionsIndex = []
+darkMode = true
+bootStrapJs = true
+breadCrumb = false
+highLight = true
+kaTex = false
+multilingualMode = false
+docsVersioning = false
+fullWidth = false
+navbarSticky = true
+toTopButton = true
+scrollSpy = false        # experimental; needs Bootstrap >= 5.2.0-beta1
 
 [menu]
-  [menu.section]
-    auto = true
-    collapsibleSidebar = true
+[menu.section]
+auto = true
+collapsibleSidebar = true
