@@ -1,0 +1,5 @@
+<p><small>Publicado {{ dateFormat ":date_long" .Date }} por {{ if .Params.contributors -}}{{ range $index,
+    $contributor := .Params.contributors }}{{ if gt $index 0 }} y {{ end }}<a class="stretched-link position-relative"
+      href="{{ " /contributors/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ end -}}{{ end
+    -}}&nbsp;&hyphen;&nbsp;<strong>{{ .ReadingTime -}}&nbsp;minutos de lectura</strong></small>
+<p>

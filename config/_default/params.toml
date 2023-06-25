@@ -112,3 +112,9 @@ scrollSpy = false        # experimental; needs Bootstrap >= 5.2.0-beta1
 [menu.section]
 auto = true
 collapsibleSidebar = true
+
+[frontmatter]
+date = ['date', 'publishDate', 'lastmod']
+expiryDate = ['expiryDate']
+lastmod = [':git', 'lastmod', 'date', 'publishDate']
+publishDate = ['publishDate', 'date']
