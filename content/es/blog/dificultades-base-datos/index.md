@@ -45,7 +45,7 @@ Cómo ya se mencionó, no todas las fórmulas requieren los mismos campos, algun
 
 Tras un corto análisis es posible responder esta pregunta más facilmente. Todas las fórmulas incluyen un nombre y la fórmula misma, muchas fórmulas tienen variables por lo que es útil conocer el nombre y su significado así cómo las unidades que usan o si son adimensionales, de igual forma algunas fórmulas se conocen por más de un nombre por lo que es útil mencionarlo. Por lo tanto, todas las fórmulas hechas deberían de seguir una forma más o menos predeterminada:
 
-```
+```yaml
 nombre: nombreFormula,
 formula: representacionLaTeX,
 variables:
@@ -117,8 +117,8 @@ Existen muchos formatos disponibles para distribuir este tipo de datos ordenados
         }
     ]
 }
-
 ```
+
 ## Conclusión
 
 Aún hay preguntas por responder y hace falta escribir y planear mucho pero las bases comienzan a asentarse. Queda un tanto lejano el lanzamiento de alguna nueva versión de OpenFormula, pero el escribir estándares y planeación es un paso hacia adelante en ese objetivo.
